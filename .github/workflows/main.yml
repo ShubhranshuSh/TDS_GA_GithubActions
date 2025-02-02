@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-
-      - name: 21f3000591@ds.study.iitm.ac.in
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      - name: Run Custom Command
         run: echo "Hello, world!"
+
+      - name: "21f3000591@ds.study.iitm.ac.in"
+        run: echo "Step executed successfully!"
